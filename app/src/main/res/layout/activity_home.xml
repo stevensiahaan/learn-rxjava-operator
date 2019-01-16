@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+
+    <Button
+        android:id="@+id/btnIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intro" />
+
+    <Button
+        android:id="@+id/btnJust"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Just Example" />
+
+    <Button
+        android:id="@+id/btnFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From Example" />
+
+    <Button
+        android:id="@+id/btnRange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Range Example" />
+
+    <Button
+        android:id="@+id/btnBuffer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buffer Example" />
+
+    <Button
+        android:id="@+id/btnDebounce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Debounce Example" />
+
+</LinearLayout>
